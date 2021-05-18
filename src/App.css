@@ -11,3 +11,10 @@
   height: 250px;
   width: 250px;
 }
+
+.GroupBox {
+  border: 3px solid blue;
+  height: 250px;
+  width: 250px;
+  margin: 30px;
+}

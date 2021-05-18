@@ -1,5 +1,8 @@
 import "./App.css";
 import { useFriction } from "renature";
+import MultProps from "./MultProps";
+import AnimationGroup from "./AnimationGroup";
+import ControlAnimations from "./ControlAnimations";
 
 function App() {
   const [props] = useFriction({
@@ -18,7 +21,10 @@ function App() {
   });
   return (
     <div className="App">
-      <div {...props} className="box" />
+      {/* <div {...props} className="box" /> */}
+      {/* <MultProps /> */}
+      {/* <AnimationGroup /> */}
+      <ControlAnimations />
     </div>
   );
 }
